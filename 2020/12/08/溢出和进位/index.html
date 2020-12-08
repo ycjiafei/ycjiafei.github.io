@@ -17,20 +17,25 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>About Me | 天天向上</title>
-  <meta name="description" content="这是第一次创建文章， 关于我">
+  <title>溢出和进位 | 天天向上</title>
+  <meta name="description" content="溢出（overflow） 运算结果超出了正常表示 范围 仅针对有符号数运算 两个正数相加，结果为负数 两个负数相加，结果为正数    如何理解这两点？来看两个例子  可以看到，计算机在执行算数运算的时不关心有符号还是无符号，这是人类定义的（补码表示法），因为补码的存在，导致两个正数或两个负数相加时，改变了符号位，导致结果变得很离谱。 进位由于没有了最高位表示符号， 所以补码就不存在， 但是无符号数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About Me">
-<meta property="og:url" content="http://ycjiafei.github.io/2020/12/03/About-Me/index.html">
+<meta property="og:title" content="溢出和进位">
+<meta property="og:url" content="http://ycjiafei.github.io/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="这是第一次创建文章， 关于我">
+<meta property="og:description" content="溢出（overflow） 运算结果超出了正常表示 范围 仅针对有符号数运算 两个正数相加，结果为负数 两个负数相加，结果为正数    如何理解这两点？来看两个例子  可以看到，计算机在执行算数运算的时不关心有符号还是无符号，这是人类定义的（补码表示法），因为补码的存在，导致两个正数或两个负数相加时，改变了符号位，导致结果变得很离谱。 进位由于没有了最高位表示符号， 所以补码就不存在， 但是无符号数">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-12-03T10:56:33.000Z">
-<meta property="article:modified_time" content="2020-12-03T10:57:18.766Z">
+<meta property="og:image" content="https://pic2.hanmaker.com/im/images/image-20201208184348972.png">
+<meta property="og:image" content="https://pic2.hanmaker.com/im/images/image-20201208184953922.png">
+<meta property="article:published_time" content="2020-12-08T18:18:34.000Z">
+<meta property="article:modified_time" content="2020-12-08T11:17:24.192Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="逻辑">
+<meta property="article:tag" content="计算机基础">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic2.hanmaker.com/im/images/image-20201208184348972.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://ycjiafei.github.io/2020/12/03/About-Me/index.html">
+  <link rel="canonical" href="http://ycjiafei.github.io/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -347,14 +352,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-About-Me" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-溢出和进位" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      About Me
+      溢出和进位
     </h1>
   
 
@@ -362,29 +367,54 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2020/12/03/About-Me/" class="article-date">
-	  <time datetime="2020-12-03T10:56:33.000Z" itemprop="datePublished">2020-12-03</time>
+	<a href="/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/" class="article-date">
+	  <time datetime="2020-12-08T18:18:34.000Z" itemprop="datePublished">2020-12-08</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/" rel="tag">计算机基础</a>, <a class="article-tag-link-link" href="/tags/%E9%80%BB%E8%BE%91/" rel="tag">逻辑</a>
+  </span>
+
 
         
 
 	<span class="article-read hidden-xs">
     	<i class="icon icon-eye-fill" aria-hidden="true"></i>
-    	<span id="/2020/12/03/About-Me/" class="leancloud_visitors"  data-flag-title="About Me">
+    	<span id="/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/" class="leancloud_visitors"  data-flag-title="溢出和进位">
 			<span class="leancloud-visitors-count">0</span>
 		</span>
     </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/12/03/About-Me/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>这是第一次创建文章， 关于我</p>
+        <h3 id="溢出（overflow）"><a href="#溢出（overflow）" class="headerlink" title="溢出（overflow）"></a>溢出（overflow）</h3><ol>
+<li>运算结果超出了正常表示 范围</li>
+<li>仅针对有符号数运算<ul>
+<li>两个正数相加，结果为负数</li>
+<li>两个负数相加，结果为正数</li>
+</ul>
+</li>
+</ol>
+<p>如何理解这两点？来看两个例子</p>
+<p><img src="https://pic2.hanmaker.com/im/images/image-20201208184348972.png" alt="image-20201208184348972"></p>
+<p>可以看到，计算机在执行算数运算的时不关心有符号还是无符号，这是人类定义的（补码表示法），因为补码的存在，导致两个正数或两个负数相加时，改变了符号位，导致结果变得很离谱。</p>
+<h3 id="进位"><a href="#进位" class="headerlink" title="进位"></a>进位</h3><p>由于没有了最高位表示符号， 所以补码就不存在， 但是无符号数产生回绕。</p>
+<p>如 11111111 为 255， 而 255 + 1 = 0， 因为发生了进位，255 + 2 = 1 结果开始从 0 ～ 255 循环</p>
+<p>但是这种进位不能算溢出，因为计算机和传统代数不一样， 计算机是在<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%9C%89%E9%99%90%E5%9F%9F">有限域</a>上的运算， 我们看到的 255 + 1 = 0 是合理的， 因为超出了域， 进位被舍弃了。</p>
+<h3 id="标志"><a href="#标志" class="headerlink" title="标志"></a>标志</h3><p>为了解决这种问题， 于是就有了 cpu 的标志位，当结果有溢出时， OF 位为 1， 最终结果发生了进位，则  CF 位为 1</p>
+<p><img src="https://pic2.hanmaker.com/im/images/image-20201208184953922.png" alt="image-20201208184953922"></p>
 
       
     </div>
@@ -394,7 +424,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://ycjiafei.github.io/2020/12/03/About-Me/" title="About Me" target="_blank" rel="external">http://ycjiafei.github.io/2020/12/03/About-Me/</a>
+      <a href="http://ycjiafei.github.io/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/" title="溢出和进位" target="_blank" rel="external">http://ycjiafei.github.io/2020/12/08/%E6%BA%A2%E5%87%BA%E5%92%8C%E8%BF%9B%E4%BD%8D/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -441,12 +471,12 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2020/12/03/Docker-Vagrant-%E6%9E%84%E5%BB%BA%E5%AE%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9A%84-CI-CD/" title="Docker+Vagrant 构建完全自动化的 CI/CD"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+      <a href="/2020/12/08/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%87%8F%E6%B3%95%E5%99%A8/" title="二进制减法器"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/1970/01/01/hello-world/" title="Hello World"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2020/12/08/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%8A%A0%E6%B3%95%E5%99%A8/" title="二进制加法器"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
